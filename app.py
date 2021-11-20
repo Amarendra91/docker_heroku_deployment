@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running and I am making some changes to verify the CI CD pipeline"
+    return "Flask app is running"
 
 
 if __name__ == "__main__":
